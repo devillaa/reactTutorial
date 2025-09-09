@@ -4,15 +4,12 @@ import './index.css'
 import App from './App.jsx'
 import Paragrafo from './Paragrafo.jsx'
 import CaixaTexto from './CaixaTexto.jsx'
-import AppTarefas from './AppTarefas.jsx'
+import AppTarefas from './pages/Tarefas/AppTarefas.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AppTarefas />
     
-    {/* <App />
-    <Paragrafo nome="La ele" />
-    <CaixaTexto /> */}
+     <App />
 
   </StrictMode>,
 )
